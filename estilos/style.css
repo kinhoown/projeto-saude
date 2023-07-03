@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "bold";
+    src: url(../fontes/HankenGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: "extrabold";
+    src: url(../fontes/HankenGrotesk-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(../fontes/HankenGrotesk-Medium.ttf);
+}
+
+@font-face {
+    font-family: "variablefonte_wght";
+    src: url(../fontes/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+:root{
+    --fonte-unica: "variablefonte_wght", "bold", "medium", "extrabold";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-shadow: none;
+    font-family: var(--fonte-unica);
+}
+
+body{
+    height: 100vh;
+}
+
+.avo{
+    display: flex;
+    flex-direction: column;
+}
+
+.pai1{
+    background-image: linear-gradient(rgb(119, 95, 255) , rgb(67, 54, 255));
+    height: 40vh;
+    border-radius: 40px;
+    margin-top: -40px;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filho11{
+    color: rgba(255, 255, 255, 0.767);
+}
+
+strong{
+    font-size: 4em;
+    color: white;
+}
+
+.filho12{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0));
+    color: rgba(255, 255, 255, 0.507);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 50%;
+}
