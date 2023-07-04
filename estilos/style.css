@@ -58,7 +58,7 @@ body{
     color: rgba(255, 255, 255, 0.767);
 }
 
-strong{
+#forte{
     font-size: 4em;
     color: white;
 }
@@ -91,13 +91,84 @@ strong{
     flex-direction: column;
     align-items: center;
     margin: 20px 40px;
+    row-gap: 22px;
 }
 
 .filho21{
     align-self: flex-start;
 }
 
+strong{
+    color: black;
+}
+
+.preto{
+    color: rgba(0, 0, 0, 0.570);
+}
+
 .filho22{
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+
     display: flex;
-    flex-direction: ;
+    justify-content: space-between;
+
+    background-color: rgba(255, 0, 0, 0.060);
+    color: red;
+}
+
+.filho23{
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(255, 255, 0, 0.060);
+    color: rgb(255, 196, 0);
+}
+
+.filho24{
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(0, 128, 0, 0.060);
+    color: green;
+}
+
+.filho25{
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 255, 0.060);
+    color: blue;
+}
+
+.filho26{
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+
+    background-color: rgb(46, 46, 73);
+    color: white;
+
+    font-size: 1.2em;
+}
+
+footer{
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
 }
