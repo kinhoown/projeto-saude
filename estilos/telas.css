@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .avo{
+        background-color: red;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .pai1{
+        height: 500px;
+        width: 400px;
+    }
+
+    .pai2{
+        height: 500px;
+        width: 400px; 
+    }
+}

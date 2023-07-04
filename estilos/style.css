@@ -33,7 +33,7 @@
 }
 
 body{
-    height: 100vh;
+    background-color: white;
 }
 
 .avo{
@@ -165,10 +165,6 @@ strong{
     font-size: 1.2em;
 }
 
-footer{
-    color: rgba(0, 0, 0, 0.534);
-    font-size: 12px;
-
-    display: flex;
-    justify-content: center;
+.filho26:hover{
+    background-image: linear-gradient(rgb(119, 95, 255) , rgb(67, 54, 255));
 }
