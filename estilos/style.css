@@ -81,7 +81,7 @@ strong{
 .filho14{
     color: rgba(255, 255, 255, 0.767);
     font-size: 1.1em;
-    width: 60vw;
+    width: 70vw;
     padding-bottom: 30px;
     margin-left: 40px;
 }
@@ -98,6 +98,6 @@ strong{
 }
 
 .filho22{
-    
+    display: flex;
+    flex-direction: ;
 }
-
