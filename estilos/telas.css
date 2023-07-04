@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
     .avo{
-        background-color: red;
+        background-color: white;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -10,12 +10,28 @@
     }
 
     .pai1{
-        height: 500px;
+        height: 550px;
         width: 400px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .filho14{
+        width: 60%;
+        text-align: center;
+        margin: 0px;
     }
 
     .pai2{
-        height: 500px;
-        width: 400px; 
+        height: 550px;
+        width: 300px; 
+        box-shadow: 10px 10px 50px rgba(67, 54, 255, 0.219);
+        margin: -100px;
+        padding: 0px 50px 0px 150px;
+        border-radius: 40px;
+    }
+
+    .filho21{
+        margin: 40px 0px 10px 0px;
     }
 }
